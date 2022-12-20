@@ -1,0 +1,46 @@
+/* Pietro colore sfondo*/
+.coloresfondo {
+    background-color: #10141b;
+}
+
+/* Pietro formattazione dei link nel footer*/
+.FooterLink {
+    line-height: 20px;
+    font-size: 14px;
+    text-align: left;
+    color: inherit;
+    letter-spacing: .25px;
+    font-weight: 600;
+}
+
+/* Pietro distanza link footer */
+.margine {
+    padding-bottom: 15px;
+}
+
+/* Pietro toglie la sottolineature a tutti i link */
+a {
+    text-decoration: none;
+}
+
+/* Pietro sottolinea quando ci passi la freccia sopra*/
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pietro formattazione della scritta copyright footer*/
+.copyright {
+    line-height: 1.33;
+    font-family: cursive;
+    color: #9fa1ad;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: .25px;
+}
+
+/* Pietro rettangolo footer */
+.border {
+    border: 1px solid #696b78;
+    padding: 50px 80px;
+}
+
