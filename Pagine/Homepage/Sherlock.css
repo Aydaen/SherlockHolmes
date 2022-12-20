@@ -1,0 +1,45 @@
+.center{float: none !important;}
+
+img {
+    width: 100%;
+  }
+
+  #sfondoLogo{background-color: #3a3d3d;}
+
+  /* #sfondoBody {background-image: url('photo_2022-12-19_14-25-24.jpg'); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;} */
+
+        #sfondoBody{background-color: #10141b;}
+
+        .masthead {
+          height: 100vh;
+          min-height: 500px;
+          background-image: url('photo_2022-12-19_14-25-24.jpg');
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        }
+
+        
+/* Regole per header fisso*/
+        .content {
+          padding: 16px;
+        }
+        
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        
+        .sticky + .content {
+          padding-top: 102px;
+        }
+
+        
+ 
+
+
+
